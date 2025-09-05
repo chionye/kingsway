@@ -1,0 +1,61 @@
+/** @format */
+
+import type { LabTest } from "@/types";
+
+export const sampleLabTests: LabTest[] = [
+  {
+    id: "lt001",
+    patientId: "p101",
+    patientName: "Alice Smith",
+    testName: "Complete Blood Count (CBC)",
+    status: "Completed",
+    result: "Hemoglobin: 14.5 g/dL",
+    dateRequested: "2024-09-03",
+    dateCompleted: "2024-09-04",
+    requestedBy: "Dr. Emily Carter",
+  },
+  {
+    id: "lt002",
+    patientId: "p102",
+    patientName: "Bob Johnson",
+    testName: "Blood Glucose Test",
+    status: "Completed",
+    result: "Fasting Glucose: 95 mg/dL",
+    dateRequested: "2024-09-03",
+    dateCompleted: "2024-09-04",
+    requestedBy: "Dr. Emily Carter",
+  },
+  {
+    id: "lt003",
+    patientId: "p101",
+    patientName: "Alice Smith",
+    testName: "Urinalysis",
+    status: "Pending",
+    result: null,
+    dateRequested: "2024-09-04",
+    dateCompleted: null,
+    requestedBy: "Dr. Emily Carter",
+  },
+  {
+    id: "lt004",
+    patientId: "p103",
+    patientName: "Charlie Brown",
+    testName: "Lipid Profile",
+    status: "Completed",
+    result: "Cholesterol: 180 mg/dL",
+    dateRequested: "2024-09-04",
+    dateCompleted: "2024-09-05",
+    requestedBy: "Dr. David Lee",
+  },
+  {
+    id: "lt005",
+    patientId: "p102",
+    patientName: "Bob Johnson",
+    testName: "Liver Function Test (LFT)",
+    status: "Cancelled",
+    result: null,
+    dateRequested: "2024-09-04",
+    dateCompleted: null,
+    requestedBy: "Dr. Emily Carter",
+  },
+];
