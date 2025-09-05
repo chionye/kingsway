@@ -146,7 +146,7 @@ const Users = () => {
   ];
 
   return (
-    <div className='space-y-6 p-6 bg-gray-50 min-h-screen'>
+    <div className='space-y-6 bg-gray-50 min-h-screen'>
       {/* Header */}
       <div className='flex items-center justify-between'>
         <div className='flex items-center space-x-3'>

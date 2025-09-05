@@ -37,7 +37,7 @@ function DashboardLayout({ children }: { children: React.ReactNode }) {
           <div className={`w-full flex justify-end`}>
             <div className='lg:w-[82%] w-full flex flex-col h-full overflow-y-scroll'>
               <DashboardHeader toggleMobileNav={toggleMobileNav} />
-              <div className='w-full lg:p-10 p-3 overflow-y-scroll h-full'>
+              <div className='w-full lg:px-5 p-3 overflow-y-scroll h-full'>
                 {children}
               </div>
             </div>
